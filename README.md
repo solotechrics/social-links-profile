@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/solotechrics/social-links-profile)
-- Live Site URL: *(coming soon — will update after deployment)*
+- Live Site URL: [Live Site URL](https://solotechrics.github.io/social-links-profile/)
 
 ---
 
