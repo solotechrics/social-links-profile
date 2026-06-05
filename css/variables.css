@@ -1,7 +1,8 @@
 :root {
-    --hover-color: #C4F82A;
+    --hover-color: #c4f82a;
     --text-color: hsl(0, 0%, 100%);
-    --card-bg: #1F1F1F;
+    --card-bg: #1f1f1f;
     --link-bg: #333333;
     --body-bg: #141414;
+    --white-color: hsl(0, 5%, 92%);
 }

@@ -1,10 +1,12 @@
 main {
-    padding: 1rem;
+    padding: clamp(1rem, 3vw, 2rem);
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
 }
+
+/* Components */
 
 .card-container {
     display: flex;
@@ -15,12 +17,37 @@ main {
     border-radius: 12px;
     padding: 2rem;
 }
+
 .profile {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.78rem;
 }
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+/* Element selectors */
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+footer {
+    margin-block: 1rem;
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+/* Descendant selectors */
 
 .profile h1 {
     font-size: 1.5rem;
@@ -35,31 +62,32 @@ main {
 
 .title p {
     font-weight: 400;
-    color: hsl(0, 5%, 92%);
-    margin-top: 8px;
-}
-
-.social-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
+    color: var(--white-color);
+    margin-block-start: 8px;
 }
 
 .social-links a {
-    color: var(--text-color);
-    font-size: 14px;
-    font-weight: 600;
-    background-color: var(--link-bg);
-    text-align: center;
     width: 100%;
-    padding: 12px;
+    padding: 0.75rem;
     border-radius: 8px;
+
+    color: var(--text-color);
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-align: center;
+
+    background-color: var(--link-bg);
+
     transition:
         background-color 0.3s ease,
         color 0.3s ease;
 }
+
+footer a {
+    color: var(--hover-color);
+}
+
+/* States */
 
 .social-links a:hover,
 .social-links a:focus-visible {
@@ -68,19 +96,10 @@ main {
     cursor: pointer;
 }
 
-img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
+/* Accessibility */
 
-footer {
-    margin-top: 1rem;
-    font-size: 0.6875rem;
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-footer a {
-    color: var(--hover-color);
+@media (prefers-reduced-motion: reduce) {
+    .social-links a {
+        transition: none;
+    }
 }
