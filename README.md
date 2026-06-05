@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Social Links Profile Desktop Screenshot](./preview/desktop-design.jpg)
-![Social Links Profile Mobile Screenshot](./preview/mobile-design.jpg)
+![Social Links Profile Desktop Screenshot](./desktop-design.jpg)
+![Social Links Profile Mobile Screenshot](./mobile-design.jpg)
 
 ### Links
 
