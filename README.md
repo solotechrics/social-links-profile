@@ -28,6 +28,7 @@ Users should be able to:
 
 ![Social Links Profile Desktop Screenshot](./preview/desktop-design.png)
 ![Social Links Profile Mobile Screenshot](./preview/mobile-design.png)
+![Social Links Profile Active Screenshot](./preview/active-design.png)
 
 ### Links
 
